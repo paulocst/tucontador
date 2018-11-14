@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { ContadorPage } from '../pages/contador/contador';
 import { SociedadPage } from '../pages/sociedad/sociedad';
 import { InicioPage } from '../pages/inicio/inicio';
+import { EstadisticaPage } from '../pages/estadistica/estadistica';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -17,6 +18,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContadorPage,
     SociedadPage,
     InicioPage,
+    EstadisticaPage,
     TabsPage
   ],
   imports: [
@@ -29,6 +31,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContadorPage,
     SociedadPage,
     InicioPage,
+    EstadisticaPage,
     TabsPage
   ],
   providers: [
