@@ -1,28 +1,41 @@
 <ion-header>
   <ion-navbar>
 
-    <ion-buttons start>
-      <button ion-button icon-only>
-        <ion-icon name="briefcase"></ion-icon>
-      </button>
-    </ion-buttons>
-
     <ion-buttons end>
-      <button ion-button icon-only>
-        <ion-icon name="search"></ion-icon>
+      <button ion-button icon-only (click)="infoSociedadPage()">
+        <ion-icon name="information-circle"></ion-icon>
       </button>
     </ion-buttons>
 
     <ion-title>
-      Sociedades
+      Sociedades contables
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <h1>Detalle de las sociedades sancionadas</h1>
-    <button ion-button outline block icon-start>
-      <ion-icon name="list"></ion-icon>
-      Lista de sociedades
-    </button>
+
+    <ion-card>
+      <ion-card-header>
+        Buscar sanciones
+      </ion-card-header>
+
+      <ion-list>
+        <button ion-item>
+          <ion-icon name="list" item-start></ion-icon>
+          Lista de sansiones
+        </button>
+
+        <button ion-item>
+          <ion-icon name="search" item-start></ion-icon>
+          Sanción por Nit
+        </button>
+
+        <button ion-item>
+          <ion-icon name="search" item-start></ion-icon>
+          Sanción por Razón social
+        </button>
+      </ion-list>
+    </ion-card>
+
 </ion-content>

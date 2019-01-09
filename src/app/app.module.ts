@@ -8,6 +8,8 @@ import { SociedadPage } from '../pages/sociedad/sociedad';
 import { InicioPage } from '../pages/inicio/inicio';
 import { EstadisticaPage } from '../pages/estadistica/estadistica';
 import { TabsPage } from '../pages/tabs/tabs';
+import { InfoPage } from '../pages/info/info';
+import { InfoSociedadPage } from '../pages/info-sociedad/info-sociedad';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +21,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SociedadPage,
     InicioPage,
     EstadisticaPage,
-    TabsPage
+    TabsPage,
+    InfoPage,
+    InfoSociedadPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SociedadPage,
     InicioPage,
     EstadisticaPage,
-    TabsPage
+    TabsPage,
+    InfoPage,
+    InfoSociedadPage
   ],
   providers: [
     StatusBar,
